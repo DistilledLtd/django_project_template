@@ -12,6 +12,6 @@ import newrelic.agent
 
 # NB in Staging the NEW_RELIC_ENVIRONMENT variable must be set to 'staging'
 # in order for it to use the staging settings of the newrelic.ini
-newrelic.agent.initialize('{{ project_directory }}/newrelic.ini')
+newrelic.agent.initialize('/python/{{ project_name }}/newrelic.ini')
 
 application = get_wsgi_application()
