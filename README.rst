@@ -4,7 +4,7 @@
 Initial Setup
 ========================================================
 
-:code:`django-admin startproject {{ project_name }} --template=https://github.com/DistilledLtd/django_project_template.zip --extension=py,rst`
+:code:`django-admin startproject {{ project_name }} --template=https://github.com/DistilledLtd/django_project_template/archive/master.zip --extension=py,rst,ini`
 
 
 Pip
