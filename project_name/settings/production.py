@@ -133,6 +133,11 @@ LOGGING = {
             'handlers': ['logfile', 'opbeat'],
             'level': 'INFO',
         },
+        'django.request': {
+            'handlers': ['logfile', 'opbeat'],
+            'level': 'ERROR',
+            'propagate': True,
+        }
     }
 }
 
